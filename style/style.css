@@ -1,0 +1,56 @@
+:root {
+  --color-negro: #1b1b1b;
+  --color-celeste: #45a9e2;
+  --color-naranja: #b95c05;
+  --color-blanco: #dfdfdf;
+}
+
+body {
+  background: var(--color-negro);
+  color: var(--color-blanco);
+}
+
+.container {
+  max-width: 1430px;
+  margin: 0 auto;
+}
+
+.background-div {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  padding: 6rem 1.25rem;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(125% 125% at 50% 10%, #1b1b1b 40%, #b95c05 100%);
+  transform: rotate(180deg);
+}
+
+
+/* Header */
+
+.container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+  position: sticky;
+  top: 0;
+}
+
+.container header nav ul {
+  display: flex;
+  gap: 2.6rem;
+}
+
+.container header nav ul li a {
+  font-size: 17px;
+}
+
+/* Section */
+
+section {
+  height: 100vh;
+}
