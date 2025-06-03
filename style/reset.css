@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-padding-top: 80px;
+}
+
 h1,
 h2,
 h3,
